@@ -1,7 +1,7 @@
 import serial, struct
 import matplotlib.pyplot as plt
 
-PORT = "COM5"  # your port
+PORT = "COM11"  # your port
 s = serial.Serial(PORT, 115200, timeout=0.1)
 buf, pts = bytearray(), {}
 plt.ion()
@@ -23,5 +23,8 @@ while plt.fignum_exists(1):
             if d == 0x8000: pts.pop(deg, None)
             else: pts[deg] = d
     ax.cla()
+    ax.set_ylim(0, 2000)          # fixed radius range in mm (0 to 3 m)
+    ax.set_yticks([500, 1000, 1500, 2000])
     ax.scatter([a * 3.14159 / 180 for a in pts], list(pts.values()), s=4)
+    plt.pause(0.05)
     plt.pause(0.05)
