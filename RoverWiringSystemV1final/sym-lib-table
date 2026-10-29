@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "Rover_System")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/Rover_System.kicad_sym")
+		(options "")
+		(descr "Rover modules")
+	)
+)
