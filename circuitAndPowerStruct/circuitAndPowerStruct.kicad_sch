@@ -403,6 +403,18 @@
 		(uuid 5b7463d9-366d-4621-a6a8-7dd393836ac3)
 	)
 	(rectangle
+		(start 204.978 36.322)
+		(end 223.52 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 667b8263-7cb9-4dc6-9f35-f85b9859ecb5)
+	)
+	(rectangle
 		(start 88.646 42.164)
 		(end 104.648 56.388)
 		(stroke
@@ -578,6 +590,16 @@
 		)
 		(uuid "51a558d6-5bb4-462e-8859-42e1b80a3b9c")
 	)
+	(text "Estop \nunder voltage\n"
+		(exclude_from_sim no)
+		(at 213.36 40.005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6034fa0e-3bc7-4eb1-8183-f00306741e30")
+	)
 	(text "encoder Outputs\n"
 		(exclude_from_sim no)
 		(at 80.01 149.86 90)
@@ -691,12 +713,6 @@
 		(uuid "138dd11d-6619-4cb2-8564-2fcb96ba36b0")
 	)
 	(junction
-		(at 200.025 38.735)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cf7a6da-1a0a-44be-84eb-d442de6d56b8")
-	)
-	(junction
 		(at 156.845 128.27)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -725,6 +741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92520854-df97-4291-96da-def7b69cb3a5")
+	)
+	(junction
+		(at 200.025 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df64ff96-4cfd-4f9d-9aa8-23e56fc5731c")
 	)
 	(bus
 		(pts
@@ -768,16 +790,6 @@
 		)
 		(uuid "0b7922b8-71fb-47df-8fa5-6523ec74ebb5")
 	)
-	(wire
-		(pts
-			(xy 200.025 38.735) (xy 215.265 38.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb69ac8-06ac-4a70-8c46-34ab2c1648dc")
-	)
 	(bus
 		(pts
 			(xy 99.06 173.355) (xy 114.3 173.355)
@@ -808,16 +820,6 @@
 			(type default)
 		)
 		(uuid "11528877-8eb0-4924-a29f-4d8a39ca9efd")
-	)
-	(wire
-		(pts
-			(xy 215.265 48.26) (xy 215.265 38.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129ac99f-14f9-4b97-bbbe-9a2371e9f59d")
 	)
 	(bus
 		(pts
@@ -1176,6 +1178,16 @@
 		)
 		(uuid "7d1d3a2b-3df2-41e0-91a6-aeb8a22d5331")
 	)
+	(wire
+		(pts
+			(xy 215.265 45.72) (xy 215.265 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db86681-acfa-4aea-8028-ef7e80235875")
+	)
 	(bus
 		(pts
 			(xy 153.035 157.48) (xy 153.035 163.83)
@@ -1321,6 +1333,16 @@
 			(type default)
 		)
 		(uuid "b99b1ccd-ceac-4ba8-87ed-0d9eaa605344")
+	)
+	(wire
+		(pts
+			(xy 200.025 38.735) (xy 205.105 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8f3aa1-d2d9-4ff0-931d-c0aa39f9eb31")
 	)
 	(bus
 		(pts
