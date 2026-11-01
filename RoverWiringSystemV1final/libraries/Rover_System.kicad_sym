@@ -1,0 +1,1256 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "Battery_Pack"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery_Pack"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Battery_Pack_0_1"
+			(rectangle
+				(start -22.86 6.35)
+				(end 22.86 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Battery_Pack_1_1"
+			(pin passive line
+				(at -25.4 0 0)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "NEG"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -11.43 90)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "POS"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DC_DC_Module"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_DC_Module"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DC_DC_Module_0_1"
+			(rectangle
+				(start -24.13 8.89)
+				(end 24.13 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DC_DC_Module_1_1"
+			(pin passive line
+				(at 29.21 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 13.97 270)
+				(length 5.08)
+				(name "VIN+"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "IN+"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -13.97 90)
+				(length 5.08)
+				(name "VOUT+"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "OUT+"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Dual_Driver_Side"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dual_Driver_Side"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -55.626 -46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Dual_Driver_Side_0_1"
+			(rectangle
+				(start -20.32 16.51)
+				(end 20.32 -16.51)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Dual_Driver_Side_1_1"
+			(pin output line
+				(at -12.7 -21.59 90)
+				(length 5.08)
+				(name "CH1_A"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -21.59 90)
+				(length 5.08)
+				(name "CH2_A"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -21.59 90)
+				(length 5.08)
+				(name "CH1_B"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -21.59 90)
+				(length 5.08)
+				(name "CH2_B"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 21.59 270)
+				(length 5.08)
+				(name "DIR_x2"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "DIR"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -25.4 -7.62 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 7.62 0)
+				(length 5.08)
+				(name "VBAT"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "P+"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 21.59 270)
+				(length 5.08)
+				(name "PWM_x2"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "PWM"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Lidar_Sensor_Module"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lidar_Sensor_Module"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Lidar_Sensor_Module_0_1"
+			(rectangle
+				(start -27.94 12.7)
+				(end 27.94 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Lidar_Sensor_Module_1_1"
+			(pin passive line
+				(at 0 -17.78 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 17.78 270)
+				(length 5.08)
+				(name "V_SENSOR"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "V"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Pi4_System_Module"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pi4_System_Module"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Pi4_System_Module_0_1"
+			(rectangle
+				(start -24.13 10.16)
+				(end 24.13 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Pi4_System_Module_1_1"
+			(pin passive line
+				(at 29.21 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 5.08)
+				(name "5V_INPUT"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "PWR"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Pico_W_Drive_Role"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pico_W_Drive_Role"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Pico_W_Drive_Role_0_1"
+			(rectangle
+				(start -19.05 13.97)
+				(end 19.05 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Pico_W_Drive_Role_1_1"
+			(pin passive line
+				(at 0 -19.05 90)
+				(length 5.08)
+				(name "GND_(3)"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 19.05 270)
+				(length 5.08)
+				(name "VSYS_(39)"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -7.62 180)
+				(length 5.08)
+				(name "ADC_TBD"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "ADC_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 2.54 0)
+				(length 5.08)
+				(name "L_DIR"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "L_DIR_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 7.62 0)
+				(length 5.08)
+				(name "L_PWM"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "L_PWM_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 -7.62 0)
+				(length 5.08)
+				(name "R_DIR"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "R_DIR_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 -2.54 0)
+				(length 5.08)
+				(name "R_PWM"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "R_PWM_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Pico_W_Servo_Role"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pico_W_Servo_Role"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Pico_W_Servo_Role_0_1"
+			(rectangle
+				(start -19.05 13.97)
+				(end 19.05 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Pico_W_Servo_Role_1_1"
+			(pin passive line
+				(at 0 -19.05 90)
+				(length 5.08)
+				(name "GND_(3)"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 19.05 270)
+				(length 5.08)
+				(name "VSYS_(39)"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 7.62 0)
+				(length 5.08)
+				(name "SERVO_1"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "S1_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 2.54 0)
+				(length 5.08)
+				(name "SERVO_2"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "S2_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 -2.54 0)
+				(length 5.08)
+				(name "SERVO_3"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "S3_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -24.13 -7.62 0)
+				(length 5.08)
+				(name "SERVO_4"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "S4_TBD"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Suspension_Servo"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Suspension_Servo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Suspension_Servo_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Suspension_Servo_1_1"
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "PWM"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 0.95 0.95)
+						)
+					)
+				)
+				(number "V"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
